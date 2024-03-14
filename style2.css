@@ -1,0 +1,290 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11e62ffb-3ee1-4d8c-b2b0-fa9fba112532/dfl98kn-833547ee-be3f-4c5d-ba77-3474baa017f7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzExZTYyZmZiLTNlZTEtNGQ4Yy1iMmIwLWZhOWZiYTExMjUzMlwvZGZsOThrbi04MzM1NDdlZS1iZTNmLTRjNWQtYmE3Ny0zNDc0YmFhMDE3ZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DVAoI1GOrOOd-Mu5wKL3XTmVimY1s2KUSnGY5I5e_-4&fbclid=IwAR2HwJh8Eb5ZzKGfW5c4YhnNEKLcLV3bbFDBykG9XFswfUxSR8x_TV_PGu4);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed ;
+  background-size: cover;
+  }
+  /*navbar*/
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11e62ffb-3ee1-4d8c-b2b0-fa9fba112532/dfl98kn-833547ee-be3f-4c5d-ba77-3474baa017f7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzExZTYyZmZiLTNlZTEtNGQ4Yy1iMmIwLWZhOWZiYTExMjUzMlwvZGZsOThrbi04MzM1NDdlZS1iZTNmLTRjNWQtYmE3Ny0zNDc0YmFhMDE3ZjcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DVAoI1GOrOOd-Mu5wKL3XTmVimY1s2KUSnGY5I5e_-4&fbclid=IwAR2HwJh8Eb5ZzKGfW5c4YhnNEKLcLV3bbFDBykG9XFswfUxSR8x_TV_PGu4);
+  background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed ;
+background-size: cover;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: orange;
+  }
+  .portfolio {
+    color: orange;
+  }
+  
+  /*home*/
+  
+  
+  .IM {
+    color: white;
+  }
+  .Bryan {
+    margin-left: 16%;
+    margin-top: 30%;
+    color: Black;
+    font-size: 150%;
+  
+   }
+   p {
+    color: white;
+    margin-top: -3%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-style: italic;
+  
+   }
+   .imahe {
+    text-align: center;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-15%);
+    transform: translateY(13%);
+    transition: bottom 1s, left 1s;
+    
+    
+  }
+  .imahe img {
+    width: 200%;
+    border-radius: 15px;
+  }
+  /*about*/
+  .about {
+    color: wheat;
+  }
+  img {
+    width: 30%;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1 {
+    flex-basis: 35%;
+  }
+  .about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+  }
+  .about-col-2 {
+    flex-basis: 60%;
+  }
+  .sub-title {
+    font: 60px;
+    font-weight: 600;
+    color: white;
+  }
+  .container {
+    margin-top: 500px;
+    margin-right: 250px;
+    margin-bottom: 30%;
+  
+  }
+  /*hobbies*/
+  .hobbies {
+    padding-top: 50px;
+  }
+  h2 {
+    color: white;
+  padding-top: 10%;
+  font-size: 50px;
+  padding-bottom: 40%;
+  
+  }
+  .label {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 100%;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-bottom: 33%;
+  
+  }
+  .image {
+  text-align: center;
+  
+  }
+  .image img {
+  width: 95%; 
+  height: auto;
+  margin-bottom: 20px; 
+  }
+  .label {
+  text-align: center;
+  }
+  .hobbies {
+  margin-inline: 35%;
+  }
+  /*certificate*/
+  .cer {
+    color: white;
+  padding-top: 50px;
+  }
+  .certificates {
+  padding-top: 10%;
+  margin-left: 32%;
+  font-style: italic;
+  font-family: sans-serif;
+  color: white;
+  }
+  .image-container9 img {
+  width:80%;
+  }
+  .container9 {
+  display: flex;
+  margin-right: 10%;
+  height: vh;
+  margin-top: 5%;
+  margin-bottom: 25%;
+  }
+  .image-label9 {
+  margin-left: 25% ;
+  margin-top: 30px;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  }
+  
+  
+  
+  /*Contact*/
+  .container3 {
+  position: relative;
+  width: 70%;
+  height: 20vh;
+  background-image: url(https://website2021-live-e3e78fbbd3cc41f2847799-7c49c59.divio-media.com/filer_public/eb/7f/eb7fa02f-e613-486b-98cf-9e034052610e/how_to_run_an_effective_business_meeting_-_a_step-by-step_guide-min.jpg); 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9%;
+  }
+  
+  .centered-text {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px;
+  color: bLACK; 
+  font-weight: bold;
+  
+  }
+  
+  .contactp {
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+  
+  .contacts {
+  width: 90%;
+  height: 30vh;
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  }
+  h1  {
+  font-size: 45px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  color: white;
+  }
+  .socialicons {
+  display: flex;
+  }
+  .socialicons a{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+  margin: 0 30px;
+  border-radius: 50%;
+  }
+  .socialicons a .fab {
+  font-size: 40px;
+  line-height: 80px;
+  }
+  .socialicons i:hover {
+  color: orangered;
+  }
+  .socialicons i {
+    color: white;
+  }
+  .paragraph {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  text-align: center;
+  font-size: x-large;
+  margin-right: 18%;
+  }
+  span {
+  color: orange;
+  }
